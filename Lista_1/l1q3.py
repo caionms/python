@@ -1,0 +1,7 @@
+print('Iremos calcular quantos segundos faltam para uma data!')
+dia = int(input('Digite o número de dias: '))
+horas = int(input('Digite o número de horas: '))
+minutos = int(input('Digite o número de minutos: '))
+segundos = int(input('Digite o número de segundos: '))
+sec_total = ((((((dia * 24) + horas) * 60) + minutos) * 60) + segundos)
+print(f'A quantidade de segundos que faltam são {sec_total}!')
