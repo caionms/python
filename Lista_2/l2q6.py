@@ -1,0 +1,6 @@
+print('Iremos calcular o salário líquido de um funcionário!')
+ph = int(input('Digite o ganho por hora: '))
+h = int(input('Digite o número de horas trabalhadas no mês: '))
+sb = (ph * h)
+sl = (((sb - ((sb * 11)/100) - ((sb * 8)/100) - ((sb * 5)/100))))
+print(f'O salário líquido desse funcionário é de {sl} reais!')
